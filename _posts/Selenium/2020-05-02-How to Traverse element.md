@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 05. How to Traverse Element
+title: "05. How to Traverse Element"
 image:
 categories: Selenium
 tags:

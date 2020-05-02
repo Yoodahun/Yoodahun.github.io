@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 01. Basic Method Selenium Webdriver
+title: "01. Basic Method Selenium Webdriver"
 image:
 categories: "Selenium"
 tags:

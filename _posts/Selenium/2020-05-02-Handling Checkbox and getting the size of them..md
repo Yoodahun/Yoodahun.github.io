@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 07. Handling Checkbox and getting the size of them.
+title: "07. Handling Checkbox and getting the size of them."
 image:
 categories: Selenium
 tags:

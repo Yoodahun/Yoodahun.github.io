@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 02. Importance of Locator identifiers in Selenium
+title: "02. Importance of Locator identifiers in Selenium"
 image:
 categories: Selenium
 tags:

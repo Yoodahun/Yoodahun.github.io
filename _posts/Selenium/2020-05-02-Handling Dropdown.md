@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 06. Handling Dropdown
+title: "06. Handling Dropdown"
 image:
 categories: Selenium
 tags:
