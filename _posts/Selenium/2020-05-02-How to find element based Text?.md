@@ -1,6 +1,6 @@
 ---
-layout: page
-title: How to find Element based Text?
+layout: post
+title: 04. How to find Element based Text?
 image:
 categories: Selenium
 tags:

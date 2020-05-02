@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About XPath
+layout: post
+title: 03. About XPath
 image:
 categories: Selenium
 tags:
@@ -31,7 +31,9 @@ Copy > Copy Xpath
 
 ## Generating customized path from html attributes
 
+```html
 <input class="input r4 wide mb16 mt8 username" type="email" value="" name="username" id="username" aria-describedby="error" style="display: block;">
+```
 
 ※chrome console에서는 일단 더블쿼테이션으로 입력한다음, 콘솔상에서 싱글 쿼테이션으로 바꿔야지 적용이되는 문제가 있음. 왜인지는 잘 모르겠음.
 

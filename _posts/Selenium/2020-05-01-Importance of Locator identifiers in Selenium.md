@@ -56,3 +56,14 @@ Chrome에서는 CSS만 추출해낼 수 는 없음.
 Chrome > console에서 $x(“”) 으로 xpath가 제대로 올바른지를 확인할 수 있음.
 더블 쿼테이션 내부의 더블 쿼테이션은 싱글 쿼테이션으로 바꾸어야함.
 
+---
+
+### Identifying Object
+
+- 테스트를 실행하기 전에 Path를 한 번 더 확인할 것.
+- Css를 xpath와 같은 문법으로 하면 좋음. tagName[attribute=‘value’]
+- Css Selector ‘#id .class 
+  - CSS는 xpath보다 빠름.
+
+- Find the unique attribute 
+  -  이게 가장좋음. id는 모든 페이지에서 유일한 값을 지니고 있음.

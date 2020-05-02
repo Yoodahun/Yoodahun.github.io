@@ -1,6 +1,6 @@
 ---
-layout: page
-title: How to Traverse Element
+layout: post
+title: 05. How to Traverse Element
 image:
 categories: Selenium
 tags:
@@ -18,7 +18,7 @@ How to Traverse element
    - Example : //*[@id="body-inner"]/p[23]
 2. ~/following-sibling::element[number]
   1. 이때 바로 아래 형제요소는 1번부터 시작한다.
-  //*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]
+    //*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]
 
 ### Back to Parent from child element
 
