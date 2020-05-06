@@ -2,7 +2,7 @@
 layout: post
 title: Strategy to Access Excel data
 image:
-categories: "Excel Data Driven"
+categories: "Excel-Data-Driven"
 tags:
   - ExcelData
   - Java

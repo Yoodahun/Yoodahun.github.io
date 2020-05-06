@@ -2,7 +2,7 @@
 layout: post
 title: Excel Driven Testing
 image:
-categories: "Excel Data Driven"
+categories: "Excel-Data-Driven"
 tags:
   - ExcelData
   - Java

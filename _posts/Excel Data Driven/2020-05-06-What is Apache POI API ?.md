@@ -2,7 +2,7 @@
 layout: post
 title: Introduction Excel Data Driven
 image:
-categories: "Excel Data Driven"
+categories: "Excel-Data-Driven"
 tags:
   - ExcelData
   - Java
