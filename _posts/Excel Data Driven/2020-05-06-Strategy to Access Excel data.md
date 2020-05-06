@@ -56,7 +56,7 @@ for (int I = 0; I<sheetsCount; I++) {
 혹시나 버전에 대한 에러가 난다면 위 프로퍼티 내용을 넣어주는게좋다.
 
 - - - -
-![image-20200505210221710](/Users/yoodahun/Documents/Github/Yoodahun.github.io/_drafts/image-20200505210221710.png)
+![](/assets/images/posts/ExcelDataDriven/image-20200505210221710.png)
 
 헤더행의 데이터를 읽어들였다
 
