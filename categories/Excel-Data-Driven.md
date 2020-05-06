@@ -1,6 +1,6 @@
 ---
 layout: category
 title: "Excel-Data-Driven"
-permalink: /categories/ExcelDataDriven
+permalink: /categories/Excel-Data-Driven
 ---
 
