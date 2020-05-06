@@ -4,18 +4,42 @@ title: About
 permalink: /aboutme/
 ---
 
-안녕하세요! 일본에서 서식중인 개발자 겸 테스터 겸 사진쟁이 겸 글쟁이 입니다. 😂  
-I'm living in Japan, Korean !  
-福岡で住んでる韓国人です。🐼　よろしく〜！
+안녕하세요! 일본에서 QA로 재직중입니다.
 
-### Skill Information
 
-- Java
-- Ruby on Rails
-- Swift
-- Bash Shell Script
+
+### Experience
+
+- 금융계 System Engineer 2018 ~ 2019 Summer.
+- Crypto currency service Dealing / Billing QA Engineer 2019 Summer ~
+
+### Technical Skiils
+
+- **Java**
+  - TestNG
+  - Selenium
+  - Cucumber
+- **Ruby**
+  - Ruby on rails
+- **Bash Shell Script**
+  - Linux command
+- **SQL**
+  - Oracle DB
 - Git & SVN
+
+### Education
+
+**충남대학교** - Chungnam National Univ.
+
+- Major : Japanese Langage and Literature
+- Minor : Computer Engineering
+
+### Language
+
+- Japanese : Business Level.
 
 ### Contact me
 
-[dahun4032@gmail.com](mailto:email@domain.com)
+- **Github** : https://github.com/Yoodahun
+
+- **Mail** : [dahun4032@gmail.com](mailto:email@domain.com)

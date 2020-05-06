@@ -66,7 +66,7 @@ https://www.qaautomation.co.in/2019/04/building-multiple-maven-profile-in-testng
 p는 profile.
 
 인텔리제이에서는, 프로파일을 선택하고 실행하면됨.
-![](/assets/posts/Maven/Switching the Tests with Maven profiling/578FD980-E623-4208-93B3-C852A9FF94C2.png)
+![](/assets/posts/Maven/Switching%20the%20Tests%20with%20Maven%20profiling/578FD980-E623-4208-93B3-C852A9FF94C2.png)
 
 
 
