@@ -21,3 +21,9 @@ tags:
 
 
 
+https://www.selenium.dev/documentation/en/guidelines_and_recommendations/page_object_models/
+
+
+
+
+

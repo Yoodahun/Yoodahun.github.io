@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "Page-Object_Pattern"
+title: "Page-Object-Pattern"
 permalink: /categories/Page-Object_Pattern
 ---
 
