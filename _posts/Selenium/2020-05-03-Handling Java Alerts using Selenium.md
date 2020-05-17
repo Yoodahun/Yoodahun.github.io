@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: 09. Handling Java Alerts using Selenium
+title: 09. Handling JavaScript Alerts using Selenium
 image:
 categories: Selenium
 tags:
@@ -8,7 +8,7 @@ tags:
   - Java
 ---
 
-Handling Java Alerts using Selenium
+Handling JavaScript Alerts using Selenium
 
 Alerts는 html태그가 아니라, Javascript로 인하여 동작한다. 그렇기 때문에 어떠한 요소에 대한 정보를 얻을 수 없다.
 

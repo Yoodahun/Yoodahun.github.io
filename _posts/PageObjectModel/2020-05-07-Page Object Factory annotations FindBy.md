@@ -8,9 +8,8 @@ tags:
   - Java
 ---
 
-
-
 Page Object Class를, Selenium의 `Factory` 라는 개념으로 새롭게 정의할 수 있다. 이중 `@FindBy` Annotation을 써서 구현해볼 수 있다.
+
 
 
 - - - -
@@ -37,5 +36,11 @@ public LoginPageFactory(WebDriver driver){
 ```
 
 
+
+https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/package-summary.html
+
+https://intellipaat.com/community/33201/how-how-id-in-selenium
+
+https://www.softwaretestinghelp.com/page-object-model-pom-with-pagefactory/
 
 
