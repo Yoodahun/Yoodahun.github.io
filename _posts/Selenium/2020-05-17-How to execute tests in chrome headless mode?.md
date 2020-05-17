@@ -1,5 +1,4 @@
 ---
-​---
 layout: post
 title: 25. How to execute tests in chrome headless mode?
 image:
