@@ -6,8 +6,6 @@ permalink: /aboutme/
 
 안녕하세요! 일본에서 QA로 재직중입니다.
 
-
-
 ### Experience
 
 - 금융계 System Engineer 2018 ~ 2019 Summer.
@@ -41,5 +39,5 @@ permalink: /aboutme/
 ### Contact me
 
 - **Github** : https://github.com/Yoodahun
-
 - **Mail** : [dahun4032@gmail.com](mailto:email@domain.com)
+- Linkedin : https://www.linkedin.com/in/dahun-yoo-58a3b51aa/
