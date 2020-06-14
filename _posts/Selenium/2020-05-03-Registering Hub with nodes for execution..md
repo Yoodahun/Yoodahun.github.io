@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 24. Registering Hub with nodes for execution.
+title: 23. Registering Hub with nodes for execution.
 image:
 categories: Selenium
 tags:
