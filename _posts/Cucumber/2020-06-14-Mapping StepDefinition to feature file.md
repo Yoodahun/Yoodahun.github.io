@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Importance of Regular expressions in feature file
+title: Mapping StepDefinition to feature file
 image:
 categories: Cucumber
 tags:
@@ -9,8 +9,6 @@ tags:
 ---
 
 
-
-# Mapping StepDefinition to feature file
 
 Step Definition file을 만들어서 각 스텝을 정의해줄 필요가 있음.
 
