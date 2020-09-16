@@ -2,13 +2,14 @@
 layout: post
 title: How to create a request in Postman
 image:
-categories: Cucumber
+categories: Postman
 tags:
   - Postman
   - API
 ---
 
 `requestbin.com` 에서 자신만의 api를 만들어서 테스트해볼 수 있음.
+
 
 ![](/assets/images/posts/How-to-create-a-request-in-Postman/E00F1891-E21D-4399-B86B-837AB7486461.png)
 
