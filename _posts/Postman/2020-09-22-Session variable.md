@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Session variable
+title: 9. Session variable
 image:
 categories: Postman
 tags:

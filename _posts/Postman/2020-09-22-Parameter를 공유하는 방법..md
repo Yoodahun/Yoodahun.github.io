@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Parameter를 공유하는 방법
+title: 6. Parameter를 공유하는 방법
 image:
 categories: Postman
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Global variable
+title: 7. Global variable
 image:
 categories: Postman
 tags:

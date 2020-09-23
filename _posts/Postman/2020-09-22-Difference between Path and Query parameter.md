@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Difference between Path and Query parameter
+title: 5. Difference between Path and Query parameter
 image:
 categories: Postman
 tags:

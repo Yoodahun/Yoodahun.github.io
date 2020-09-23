@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to create a request in Postman
+title: 1. How to create a request in Postman
 image:
 categories: Postman
 tags:

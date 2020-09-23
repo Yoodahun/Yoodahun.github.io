@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Environment Variable
+title: 8. Environment Variable
 image:
 categories: Postman
 tags:
