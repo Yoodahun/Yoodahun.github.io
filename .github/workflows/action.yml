@@ -1,19 +1,23 @@
+name: resume to pdf
 
-name: Webpage to PDF
-  on:
-    push:
-      branches:
-        - master
+on:
+  push:
+    branches: [ master ]
 
-  jobs:
-    build:
-      name: Build
-      runs-on : ubuntu-latest
-      steps:
-        - uses: misaelnieto/web_to_pdf_action@v0.3.1
-          with:
-            webPageURL: https://Yoodahun.github.io/
-            outputFile: ./resume_pdf/yoodahun_resume.pdf
-            usePuppeteer: true
-            useScreen: true
-            pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+jobs:
+  build:
+    name: Build
+    runs-on : ubuntu-latest
+    steps:
+    - uses: misaelnieto/web_to_pdf_action@v0.3.1
+      with:
+        webPageURL: https://Yoodahun.github.io/
+        outputFile: ./resume_pdf/yoodahun_resume.pdf
+        usePuppeteer: true
+        useScreen: true
+        pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
+
+
+
+
