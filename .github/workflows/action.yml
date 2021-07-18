@@ -9,12 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Webpage to PDF
-        uses: misaelnieto/web_to_pdf_action@master
+        uses: markwilson/html2pdf@v1.0
         with:
-          webPageURL: https://yoodahun.github.io/
-          outputFile: ./resume.pdf
-          usePuppeteer: true
+          htmlPath: './_site/index.html'
+          pdfName: 'test'
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate PDF
-          file_pattern: ./resume.pdf
+          file_pattern: ./test.pdf
