@@ -34,9 +34,9 @@ additional_links:
 - title: Velog
   icon: fas fa-book-open
   url: https://velog.io/@dahunyoo
-#- title: Download PDF
-#  icon: fas fa-file-pdf
-#  url: https://yoodahun.github.io/resume/yoodahun_resume.pdf
+- title: Download PDF
+  icon: fas fa-file-pdf
+  url: https://yoodahun.github.io/resume/yoodahun_resume.pdf
 
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
