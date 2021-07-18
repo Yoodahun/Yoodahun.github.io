@@ -9,8 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Fontship
-        uses: theleagueof/fontship@latest
+      - name: Install ubuntu package
+          sudo apt-get update && sudo apt-get install calibre
+          #install japanese font if your document is JP
+          sudo apt-get install font-manager
       - name: Webpage to PDF
         uses: misaelnieto/web_to_pdf_action@master
         with:
