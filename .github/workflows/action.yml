@@ -12,8 +12,8 @@ jobs:
     - name: html to pdf
       uses: misaelnieto/web_to_pdf_action@v0.3.1
       with:
-        webPageURL: https://Yoodahun.github.io
-        outputFile: resume_pdf/yoodahun_resume.pdf
+        webPageURL: https://yoodahun.github.io
+        outputFile: ./yoodahun_resume.pdf
         usePuppeteer: true
         pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
