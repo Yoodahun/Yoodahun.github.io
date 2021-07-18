@@ -12,8 +12,8 @@ jobs:
     - name: html to pdf
       uses: misaelnieto/web_to_pdf_action@v0.3.1
       with:
-        webPageURL: https://yoodahun.github.io
-        outputFile: ./yoodahun_resume.pdf
+        webPageURL: https://yoodahun.github.io/
+        outputFile: resume_pdf/yoodahun_resume.pdf
         usePuppeteer: true
         pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
     - name : Generate and commit pdf
@@ -21,14 +21,7 @@ jobs:
       with:
         commit_message: commit PDF
         branch: master
-        file_pattern: ./yoodahun_resume.pdf
-    - name: "Run if changes have been detected"
-      if: steps.auto-commit-action.outputs.changes_detected == 'true'
-      run: echo "Changes!"
-    - name: "Run if no changes have been detected"
-      if: steps.auto-commit-action.outputs.changes_detected == 'false'
-      run: echo "No Changes!"
-
+        file_pattern: resume_pdf/yoodahun_resume.pdf
 
 
 
