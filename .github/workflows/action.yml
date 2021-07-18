@@ -22,6 +22,13 @@ jobs:
         commit_message: commit PDF
         branch: master
         file_pattern: ./yoodahun_resume.pdf
+      - name: "Run if changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes!"
+      - name: "Run if no changes have been detected"
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
+        run: echo "No Changes!"
+
 
 
 
