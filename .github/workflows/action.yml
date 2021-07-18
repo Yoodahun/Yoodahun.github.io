@@ -13,14 +13,13 @@ jobs:
       uses: fifsky/html-to-pdf-action@master
       with:
         htmlFile: _site/index.html
-        outputFile: public/yoodahun_resume.pdf
+        outputFile: ./yoodahun_resume.pdf
         pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
     - name : Generate and commit pdf
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: commit PDF
         branch: master
-        file_pattern: public/yoodahun_resume.pdf
 
 
 
