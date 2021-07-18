@@ -10,11 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Webpage to PDF
-        uses: markwilson/html2pdf@v1.0
+        uses: misaelnieto/web_to_pdf_action@master
         with:
-          htmlPath: '_site/index.html'
-          pdfName: 'test'
-
+          webPageURL: https://yoodahun.github.io
+          outputFile: resume/yoodahun_resume.pdf
+          usePuppeteer: true
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Generate PDF
