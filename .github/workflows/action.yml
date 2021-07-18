@@ -16,6 +16,11 @@ jobs:
         outputFile: ./yoodahun_resume.pdf
         usePuppeteer: true
         pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: commit PDF
+        branch: master
+        file_pattern: ./yoodahun_resume.pdf
 
 
 
