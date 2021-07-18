@@ -1,22 +1,16 @@
-name: Generate_resume_to_pdf
-on:
-  push:
-    branches:
-      - master
-jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Install ubuntu package
-        run: sudo apt-get update && sudo apt-get install calibre fonts-roboto fonts-open-sans
-      - name: Convert https://github.com to PDF
-        uses: imbhargav5/puppeteer-pdf-action@master
-        with:
-          url: https://yoodahun.github.io
-          output-file-path: ./resume/yoodahun_resume.pdf
-
+#name: Generate_resume_to_pdf
+#on:
+#  push:
+#    branches:
+#      - master
+#jobs:
+#  build:
+#    name: Build
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#      - name: Install ubuntu package
+#        run: sudo apt-get update && sudo apt-get install calibre fonts-roboto fonts-open-sans
 #      - name: Webpage to PDF
 #        uses: misaelnieto/web_to_pdf_action@master
 #        with:
@@ -24,6 +18,6 @@ jobs:
 #          outputFile: resume/yoodahun_resume.pdf
 #          usePuppeteer: true
 #          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Generate PDF
+#      - uses: stefanzweifel/git-auto-commit-action@v4
+#        with:
+#          commit_message: Generate PDF
