@@ -11,9 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install ubuntu package
           sudo apt-get update && sudo apt-get install calibre
-          #install japanese font if your document is JP
-          sudo apt-get install fonts-roboto
-          sudo apt-get install fonts-open-sans
+          sudo apt-get install fonts-roboto fonts-open-sans
       - name: Webpage to PDF
         uses: misaelnieto/web_to_pdf_action@master
         with:
