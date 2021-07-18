@@ -12,7 +12,7 @@ jobs:
     - name: html to pdf
       uses: fifsky/html-to-pdf-action@master
       with:
-        htmlFile: ./_site/index.html
+        htmlFile: _site/index.html
         outputFile: ./public/yoodahun_resume.pdf
         pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
     - name : Generate and commit pdf
