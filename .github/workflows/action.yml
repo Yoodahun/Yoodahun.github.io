@@ -10,12 +10,11 @@ jobs:
     runs-on : ubuntu-latest
     steps:
     - name: html to pdf
-      uses: misaelnieto/web_to_pdf_action@v0.3.1
+      uses: fifsky/html-to-pdf-action@master
       with:
-        webPageURL: https://yoodahun.github.io/
-        outputFile: resume_pdf/yoodahun_resume.pdf
-        usePuppeteer: true
-        pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+        htmlFile: ./public/index.html
+        outputFile: ./public/resume.pdf
+        pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
     - name : Generate and commit pdf
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
