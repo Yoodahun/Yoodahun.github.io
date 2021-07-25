@@ -53,15 +53,15 @@ additional_links:
 about_profile_image: images/IMG_9608.jpg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요! 3년차 QA Engineer로 활동하고 있는 **유다훈** 이라고 합니다.
-  현재 일본 후쿠오카에서 암호자산 판매 서비스의 Back-office feature로 유동성 관리기능과 정산기능을 담당하고 있습니다.
+  현재 일본 후쿠오카에서 암호자산 판매 서비스의 Back-office feature인 유동성 관리기능과 정산기능을 담당하고 있습니다.
 
-  테스트 대상과 테스트 환경 등에 맞추어 적절한 테스트 플랜과 테스트케이스를 설계 / 수립할 수 있으며 테스트상황에 따라 관계자들과 조정 후 적절히 테스트 일정을 조율, 제안할 수 있습니다.
+  테스트 대상과 테스트 환경 등에 맞추어 적절한 테스트 플랜과 테스트케이스를 설계 / 수립할 수 있으며 테스트상황에 따라 기획, 개발을 포함한 관계자들과 조정을 통해 효율적인 품질개선 및 달성활동을 진행할 수 있습니다.
 
-  컴퓨터공학 지식과 코딩경험도 가지고 있으며 테스트 자동화 프레임워크에 대한 지식과, 일부 프레임워크를 사용하여 현업에서의 테스트 자동화 경험을 가지고 있습니다. 이로 인하여 테스트 대상에 대한 효율적인 테스트 방법을 제안할 수 있으며 테스트 자동화를 구축할 수 있습니다.
+  컴퓨터공학 지식과 코딩경험도 가지고 있으며 테스트 자동화 프레임워크에 대한 지식과, 일부 프레임워크를 사용하여 현업에서의 테스트 자동화 경험을 가지고 있습니다. 이로 인하여 테스트 대상에 대한 효율적인 테스트 방법을 제안할 수 있으며 필요 시 테스트 자동화를 구축할 수 있습니다.
 
   주식, 펀드 및 암호자산 서비스에서의 활동경험을 바탕으로한, 금융계열과 블록체인에 대한 도메인 지식을 가지고 있으며 Business Level의 일본어를 구사할 수 있습니다.
 
-  기획, 개발, 그 외 이해관계자들과의 커뮤니케이션을 통해 효율적인 품질개선, 달성 활동을 진행합니다.
+  ---
 
   _품질_ 이란, 비단 QA engineer만이 보증하는 것이 아닌, 프로젝트 구성원 전부가 품질에 대한 의식을 가지고 있을때야 말로 보증된다고 생각합니다. 구성원들이 품질에 대해 인식하고, 품질을 끌어올릴 수 있도록 조정하고 조율하는 역할을 하고 싶습니다.
   비효율적인 프로세스가 있다면, 구성원과 다 같이 협의하고, 개선하고 싶습니다. 프로덕트에 대한 끊임없는 호기심을 통해 우수한 완성도를 추구하고, 최고의 사용자 경험을 제공하고 싶습니다.
@@ -250,16 +250,27 @@ content:
         quote: >
           온라인 교육/강의 플랫폼 Udemy를 통하여 업무역량 강화를 위한 계속적인 자기계발
         description: |
+
+          ## API and API Test
           - REST APIs with Flask and Python
-          - Python SDET - Backend RestAPITesting with BDD Framework
-          - Elegant Automation Frameworks with Python and Pytest
-          - Devops Fundamentals - CI/CD with AWS+Docker+Ansible+Jenkins
-          - Learn JMETER from Scratch on Live Apps - Performance Testing
           - Rest APITesting from Scratch - ResetAssured Java
           - Postman - The Complete guide - REST API Testing
+          - Python SDET - Backend RestAPI Testing with BDD Framework
+          - Elegant Automation Frameworks with Python and Pytest
+
+          ## CI/CD
+          - Devops Fundamentals - CI/CD with AWS+Docker+Ansible+Jenkins
+
+          ## Performance
+          - Learn JMETER from Scratch on Live Apps - Performance Testing
+
+
+          ## BDD framework, Selenium, Appium
           - Cucumber with Java-Build Automation Framework in lesser code
           - Appium Frameworks -Mobile Automation Testing from Scracth
           - Selenium Webdriver with Java -Basics to Advanced Frameworks
+
+          ## Bash
           - Bash Shell Scripting: Crash Course for Beginners
 
       - layout: left
