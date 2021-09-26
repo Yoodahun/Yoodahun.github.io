@@ -53,7 +53,7 @@ additional_links:
 about_profile_image: images/IMG_9608.jpg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요! 3년차 QA Engineer로 활동하고 있는 **유다훈** 이라고 합니다.
-  현재 일본 후쿠오카에서 암호자산 판매 서비스의 Back-office feature인 유동성 관리기능과 정산기능을 담당하고 있습니다.
+  현재 일본 후쿠오카에서 암호자산 판매 서비스의 Back-office feature인 유동성 관리기능과 정산기능을 담당하고 있습니다. 현재 일본 생활을 정리하고 귀국을 위한 준비를 하고 있습니다.
 
   테스트 대상과 테스트 환경 등에 맞추어 적절한 테스트 플랜과 테스트케이스를 설계 / 수립할 수 있으며 테스트상황에 따라 기획, 개발을 포함한 관계자들과 조정을 통해 효율적인 품질개선 및 달성활동을 진행할 수 있습니다.
 
@@ -72,7 +72,7 @@ about_content: | # this will include new lines to allow paragraphs
   - _Gmail_ : dahun4032@gmail.com
 
 
-  <div style="text-align: right;"> _last update: 2021. 07_ </div>
+  <div style="text-align: right;"> _last update: 2021. 09_ </div>
 
 content:
   - title: Experience # Title for the section
@@ -88,18 +88,26 @@ content:
           전세계 AU 1억 2천여명 이상의 일본의 인프라 레벨 수준의 국민적 메신저 서비스
         description: | # this will include new lines to allow paragraphs
           ## **CryptoCurrency brokerage service back-office feature**
-          - Managing E2E Test Schedule
+          ## **CryptoCurrency NFT Market and Biz serivce back-office feature**
+
+          프로젝트 전반에 걸쳐 아래와 같은 업무를 진행하였습니다.
+          - Project의 Kick-off 부터 Sign-off까지 프로젝트 모든 단계에 전반적인 QA활동 실시
+          - QA Process 및 Testcase에 대한 Review Process 정립
           - Design Test Policy and Test Plan
+          - Managing E2E Test Schedule
           - Writing some other Test documents using Confluence on Korean, Japanese Business level.
           - Design and Implement Manual TestCase and TestScenario using Testrail
           - Design and Implement Automating E2E Test using Cucumber, Selenium, TestNG
-
-          QA Process 및 Testcase에 대한 Review Process 정립
+          - E2E UI Test Design and Implement, maintenance.
 
           ---
 
+          #### _2021. 05 ~ _2021. 05_, NFT Market and Biz Service Launch
+          - NFT Market 및 Market에 등록하는 법인용(Biz) Service OPEN
+          - 정신가능 및 법인용 법적장부 기능 검증.
+
           #### _2020. 11_, _2021. 03_, LINE 자체 Wallet Platform으로의 자산이관
-          - 자산이관 계획 Review
+          - Product뿐만 아니라 Project 단위의 결과물인 자산이관 계획 Review
           - 테스트환경에서 개발팀과의 리허설 진행 후 자산이관 계획 Feedback
           - Real환경에서 무사고 <mark>자산이관</mark> 실현
 
@@ -146,6 +154,8 @@ content:
           QA / Test 관련 문서들 및 각종 Technical한 내용들에 대해 꾸준히 정리하고 있습니다.
           Udemy에서 수강한 내용들을 정리하여 올리기도 합니다.
 
+          [https://velog.io/@dahunyoo/](https://velog.io/@dahunyoo/)
+
       - layout: left
         title: 업무에서 E2E Manual Regression Test를 자동화한 후기
         link: https://velog.io/@dahunyoo/Manual-QA-Engineer가-UI기반-E2E-회귀-테스트를-자동화-한-후기
@@ -160,6 +170,18 @@ content:
           - TestNG
           - Maven
           - Testrail
+
+          [https://velog.io/@dahunyoo/Manual-QA-Engineer가-UI기반-E2E-회귀-테스트를-자동화-한-후기](https://velog.io/@dahunyoo/Manual-QA-Engineer가-UI기반-E2E-회귀-테스트를-자동화-한-후기)
+
+      - layout: left
+        title: CI Flow using Github Action Triggering
+        link: https://velog.io/@dahunyoo/Github-Action의-Triggering을-이용한-간단한-CI-구성해보기
+        quote: >
+          Github action의 Webhook을 이용한 Trigger를 만들어 API 자동 테스트 파이프라인 구축.
+        description: | # this will include new lines to allow paragraphs
+          Server의 Repository로 Push이벤트가 발생한다면, 특정 서버로 배포 후에 API Test code가 위치한 Repository로 Github API를 이용한 Webhook을 실행시켜, Github action을 이용하여  API Test를 자동으로 수행하게끔 구축.
+
+          구축 후기 : [https://velog.io/@dahunyoo/Github-Action의-Triggering을-이용한-간단한-CI-구성해보기](https://velog.io/@dahunyoo/Github-Action의-Triggering을-이용한-간단한-CI-구성해보기)
 
       - layout: left
         title: API Test using BDD Framework on JAVA / Python
