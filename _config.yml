@@ -53,7 +53,8 @@ additional_links:
 about_profile_image: images/IMG_9608.jpg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요! 3년차 QA Engineer로 활동하고 있는 **유다훈** 이라고 합니다.
-  현재 일본 후쿠오카에서 암호자산 판매 서비스의 Back-office feature인 유동성 관리기능과 정산기능을 담당하고 있습니다. 현재 일본 생활을 정리하고 귀국을 위한 준비를 하고 있습니다.
+
+  현재 마이리얼트립에서 Technical QA Engineer 로 근무중입니다.
 
   테스트 대상과 테스트 환경 등에 맞추어 적절한 테스트 플랜과 테스트케이스를 설계 / 수립할 수 있으며 테스트상황에 따라 기획, 개발을 포함한 관계자들과 조정을 통해 효율적인 품질개선 및 달성활동을 진행할 수 있습니다.
 
@@ -79,11 +80,23 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: MyRealTrip
+        sub_title: QA Engineer
+        caption: 2022. 01 - Present, Seoul, Korea
+        quote: >
+          항공권 예매부터 숙박, 식사 및 투어까지 여행에서의 Super APP으로 성장하고 있는 서비
+        description: | # this will include new lines to allow paragraphs
+          ## **Local Stay and Search & Discovery, Suggestion feature**
+
+
+          ---
+
+      - layout: left
         title: LINE Fukuoka Corp.
 #        link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: QA Engineer
-        caption: 2019. 10 - Present, Fukuoka, Japan
+        caption: 2019. 10 - 2021. 12, Fukuoka, Japan
         quote: >
           전세계 AU 1억 2천여명 이상의 일본의 인프라 레벨 수준의 국민적 메신저 서비스
         description: | # this will include new lines to allow paragraphs
@@ -100,10 +113,8 @@ content:
           - Design and Implement Automating E2E Test using Cucumber, Selenium, TestNG
           - E2E UI Test Design and Implement, maintenance.
 
-          ---
-
           #### _2021. 05 ~ _2021. 05_, NFT Market and Biz Service Launch
-          - NFT Market 및 Market에 등록하는 법인용(Biz) Service OPEN
+          - B2C NFT Market 및 Market에 등록하는 법인용(Biz) Service OPEN
           - 정산기능 및 법인용 법적장부 기능 검증.
 
           #### _2020. 11_, _2021. 03_, LINE 자체 Wallet Platform으로의 자산이관
@@ -111,7 +122,7 @@ content:
           - 테스트환경에서 개발팀과의 리허설 진행 후 자산이관 계획 Feedback
           - Real환경에서 무사고 <mark>자산이관</mark> 실현
 
-          #### _2020. 08 ~ Present_, [E2E Regression Test 자동화](https://velog.io/@dahunyoo/Manual-QA-Engineer가-UI기반-E2E-회귀-테스트를-자동화-한-후기)
+          #### _2020. 08 ~ 2021. 12_ [E2E Regression Test 자동화](https://velog.io/@dahunyoo/Manual-QA-Engineer가-UI기반-E2E-회귀-테스트를-자동화-한-후기)
           - Cucumber, Selenium을 이용한 회귀 테스트 자동화 구현
           - 기존 Regression test 공수 대비 <mark>4~50%</mark> 단축
 
@@ -121,6 +132,8 @@ content:
           #### _2020. 05_, 법령개정 대응으로 인한 Wallet Structure 변경
           - 일본 가상화폐 법령 개정으로 인한 시스템 구성 변경
           - Wallet Structure 변경으로 인한 유동성 관리 계획 Review 및 Feedback 진행
+
+          ---
 
       - layout: left
         title: Pioneer Soft
@@ -133,8 +146,6 @@ content:
           - Implement Unit Test using JUnit
           - Design and Implement Integration Test
           - Build Test env on Linux server
-
-          ---
 
           #### _2019. 07 ~ 2019. 09_, A사 펀드 구매 시스템 프로젝트
           - 기존 엑셀과 SVN으로 관리되던 Bug Tracking Process를 RubyMine으로 <mark>이전 제안 및 실행</mark>
