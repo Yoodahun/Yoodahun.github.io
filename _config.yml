@@ -84,11 +84,14 @@ content:
         sub_title: QA Engineer
         caption: 2022. 01 - Present, Seoul, Korea
         quote: >
-          항공권 예매부터 숙박, 식사 및 투어까지 여행에서의 Super APP으로 성장하고 있는 서비
+          항공권 예매부터 숙박, 식사 및 투어까지 여행에서의 Super APP으로 성장하고 있는 서비스
         description: | # this will include new lines to allow paragraphs
-          ## **Local Stay and Search & Discovery, Suggestion feature**
-
-
+          ## **Search and Recommendation, Local Stay feature**
+          
+          - Project의 Kick-off 부터 Sign-off까지 프로젝트 모든 단계에 전반적인 QA활동 실시
+          - Design and Implement Manual TestCase and TestScenario
+          - Write and Execute API Test using Postman, Newman on Search feature
+          
           ---
 
       - layout: left
