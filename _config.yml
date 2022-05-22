@@ -73,7 +73,7 @@ about_content: | # this will include new lines to allow paragraphs
   - _Gmail_ : dahun4032@gmail.com
 
 
-  <div style="text-align: right;"> _last update: 2021. 09_ </div>
+  <div style="text-align: right;"> _last update: 2022. 05_ </div>
 
 content:
   - title: Experience # Title for the section
@@ -259,7 +259,7 @@ content:
           description: | # this will include new lines to allow paragraphs
             - Selenium, Appium
             - Cucumber, behave (BDD Framework)
-            - REST Assured, requests, POSTMAN
+            - REST Assured, requests, POSTMAN, Newman
             - Maven, TestNG, JUnit, Pytest
             - Jmeter
             - Testrail
@@ -267,14 +267,14 @@ content:
         - layout: left
           title: Communication
           description: |
-           - JIRA, Confluence, Zeplin, Slack, Notion
+           - JIRA, Confluence, Zeplin, Figma, Slack, Notion
 
         - layout: left
           title: Others
           description: |
             - SQL
             - Git, SVN, Bash(Linux command)
-            - Ruby on rails, Flask
+            - Flask
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -299,7 +299,6 @@ content:
 
           ## Performance
           - Learn JMETER from Scratch on Live Apps - Performance Testing
-
 
           ## BDD framework, Selenium, Appium
           - Cucumber with Java-Build Automation Framework in lesser code
