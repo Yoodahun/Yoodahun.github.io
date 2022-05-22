@@ -81,10 +81,10 @@ content:
     content:
       - layout: left
         title: MyRealTrip
-        sub_title: QA Engineer
+        sub_title: Technical QA Engineer
         caption: 2022. 01 - Present, Seoul, Korea
         quote: >
-          항공권 예매부터 숙박, 식사 및 투어까지 여행에서의 Super APP으로 성장하고 있는 서비스
+          항공권 예매부터 숙박, 렌터카, 식사 및 투어까지 여행에서의 Super APP으로 성장하고 있는 서비스
         description: | # this will include new lines to allow paragraphs
           ## **Search and Recommendation, Local Stay feature**
           
