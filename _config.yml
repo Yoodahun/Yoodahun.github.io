@@ -73,7 +73,7 @@ about_content: | # this will include new lines to allow paragraphs
   - _Gmail_ : dahun4032@gmail.com
 
 
-  <div style="text-align: right;"> _last update: 2022. 05_ </div>
+  <div style="text-align: right;"> _last update: 2022. 07_ </div>
 
 content:
   - title: Experience # Title for the section
@@ -86,11 +86,26 @@ content:
         quote: >
           항공권 예매부터 숙박, 렌터카, 식사 및 투어까지 여행에서의 Super APP으로 성장하고 있는 서비스
         description: | # this will include new lines to allow paragraphs
-          ## **Search and Recommendation, Local Stay feature**
+          ## **Search and Recommendation, Local Stay feature, Buy Conversion**
           
           - Project의 Kick-off 부터 Sign-off까지 프로젝트 모든 단계에 전반적인 QA활동 실시
           - Design and Implement Manual TestCase and TestScenario
           - Write and Execute API Test using Postman, Newman on Search feature
+          
+          #### _2022. 05 ~ _2022. 06_, ADD public & recommendation data on Cityhome 
+          - 사내 데이터 분석 결과, 여행자들이 많이 찾는 화면인 _도시홈_ 에 대해 좀 더 많은 추천 섹션을 보여주기 위한 개편 안건
+          - 실시간 예약, 후기가 발생한 상품 섹션 및 해당 도시의 추천 상품 섹션 검증
+          - 테스트환경에서는 테스트 데이터 이슈로 인하여 추천 및 실시간 데이터가 제대로 노출이 안되는 문제를 확인하여 테스트 환경에서의 확인은 최소화로 하고 스테이지환경에서의 검증을 하자고 테스트 플랜 제안.
+          - 스테이지 환경에서, 실제 예약, 후기가 발생하는 데이터 등을 이용하여 불필요한 테스트 기간을 줄이고 빠른 릴리즈 성공
+          - **상품 상세 전환율 모바일앱 22%, 모바일웹 23% 상승**
+          
+          #### _2022. 03 ~ _2022. 04_, NEW Search feature release
+          - 기존의 Ruby on Rails의 Monolithic architecture로 되어있던 검색 서비스에 대해, Spring기반의 MSA로의 전환
+          - 기존 검색기능에 대해 Response 분석
+          - Pair-wise기법을 통한 검색조건, 필터, 정렬에 대한 테스트케이스 작성
+          - POSTMAN을 이용한 API Test 구현
+          - Github, Jenkins, Newman을 이용하여 검색기능에 대한 지속적인 모니터링 구현을 통하여 지속적인 검색품질 확인
+          - **상품 상세 전환율 49%, 결제 전환율 23% 상승**
           
           ---
 
@@ -301,6 +316,8 @@ content:
           - Learn JMETER from Scratch on Live Apps - Performance Testing
 
           ## BDD framework, Selenium, Appium
+          - Selenium 4, Docker & AWS integration
+          - Automated Software testing with Python
           - Cucumber with Java-Build Automation Framework in lesser code
           - Appium Frameworks -Mobile Automation Testing from Scracth
           - Selenium Webdriver with Java -Basics to Advanced Frameworks

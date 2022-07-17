@@ -83,7 +83,7 @@
   <li><em>Gmail</em> : dahun4032@gmail.com</li>
 </ul>
 
-<div style="text-align: right;"> _last update: 2022. 05_ </div>
+<div style="text-align: right;"> _last update: 2022. 07_ </div>
 
     </div>
   </div>
@@ -99,12 +99,31 @@
       </p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">항공권 예매부터 숙박, 렌터카, 식사 및 투어까지 여행에서의 Super APP으로 성장하고 있는 서비스
-</p><h2 id="search-and-recommendation-local-stay-feature"><strong>Search and Recommendation, Local Stay feature</strong></h2>
+</p><h2 id="search-and-recommendation-local-stay-feature-buy-conversion"><strong>Search and Recommendation, Local Stay feature, Buy Conversion</strong></h2>
 
 <ul>
   <li>Project의 Kick-off 부터 Sign-off까지 프로젝트 모든 단계에 전반적인 QA활동 실시</li>
   <li>Design and Implement Manual TestCase and TestScenario</li>
   <li>Write and Execute API Test using Postman, Newman on Search feature</li>
+</ul>
+
+<h4 id="2022-05--_2022-06-add-public--recommendation-data-on-cityhome"><em>2022. 05 ~ _2022. 06</em>, ADD public &amp; recommendation data on Cityhome</h4>
+<ul>
+  <li>사내 데이터 분석 결과, 여행자들이 많이 찾는 화면인 <em>도시홈</em> 에 대해 좀 더 많은 추천 섹션을 보여주기 위한 개편 안건</li>
+  <li>실시간 예약, 후기가 발생한 상품 섹션 및 해당 도시의 추천 상품 섹션 검증</li>
+  <li>테스트환경에서는 테스트 데이터 이슈로 인하여 추천 및 실시간 데이터가 제대로 노출이 안되는 문제를 확인하여 테스트 환경에서의 확인은 최소화로 하고 스테이지환경에서의 검증을 하자고 테스트 플랜 제안.</li>
+  <li>스테이지 환경에서, 실제 예약, 후기가 발생하는 데이터 등을 이용하여 불필요한 테스트 기간을 줄이고 빠른 릴리즈 성공</li>
+  <li><strong>상품 상세 전환율 모바일앱 22%, 모바일웹 23% 상승</strong></li>
+</ul>
+
+<h4 id="2022-03--_2022-04-new-search-feature-release"><em>2022. 03 ~ _2022. 04</em>, NEW Search feature release</h4>
+<ul>
+  <li>기존의 Ruby on Rails의 Monolithic architecture로 되어있던 검색 서비스에 대해, Spring기반의 MSA로의 전환</li>
+  <li>기존 검색기능에 대해 Response 분석</li>
+  <li>Pair-wise기법을 통한 검색조건, 필터, 정렬에 대한 테스트케이스 작성</li>
+  <li>POSTMAN을 이용한 API Test 구현</li>
+  <li>Github, Jenkins, Newman을 이용하여 검색기능에 대한 지속적인 모니터링 구현을 통하여 지속적인 검색품질 확인</li>
+  <li><strong>상품 상세 전환율 49%, 결제 전환율 23% 상승</strong></li>
 </ul>
 
 <hr />
@@ -390,6 +409,8 @@ API test입니다.</p>
 
 <h2 id="bdd-framework-selenium-appium">BDD framework, Selenium, Appium</h2>
 <ul>
+  <li>Selenium 4, Docker &amp; AWS integration</li>
+  <li>Automated Software testing with Python</li>
   <li>Cucumber with Java-Build Automation Framework in lesser code</li>
   <li>Appium Frameworks -Mobile Automation Testing from Scracth</li>
   <li>Selenium Webdriver with Java -Basics to Advanced Frameworks</li>
