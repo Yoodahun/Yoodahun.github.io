@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Yoo Dahun
-title: MyRealTrip Technical QA Engineer
+title: HYPERCONNECT SDET
 email: dahun4032@gmail.com
 website: https://velog.io/@dahunyoo
 
@@ -52,9 +52,9 @@ additional_links:
 #about_title: About Me
 about_profile_image: images/IMG_9608.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요! 4년차 QA Engineer로 활동하고 있는 **유다훈** 이라고 합니다.
+  안녕하세요! 6년차 QA Engineer로 활동하고 있는 **유다훈** 이라고 합니다.
 
-  현재 마이리얼트립에서 Technical QA Engineer 로 근무중입니다.
+  현재 하이퍼커넥트에서 Software Development in Test (SDET) 로 근무중입니다.
 
   테스트 대상과 테스트 환경 등에 맞추어 적절한 테스트 플랜과 테스트케이스를 설계 / 수립할 수 있으며 테스트상황에 따라 기획, 개발을 포함한 이해관계자들과의 커뮤니케이션을 통해 효율적인 품질개선 및 달성활동을 진행할 수 있습니다.
 
@@ -62,27 +62,45 @@ about_content: | # this will include new lines to allow paragraphs
 
   주식, 펀드 및 암호자산 서비스에서의 재직경험을 바탕으로한, 금융계열과 블록체인에 대한 도메인 지식과, 여행 커머스업에서의 재직경험을 바탕으로한 커머스 도메인 지식을 가지고 있습니다. 또한 Business Level의 일본어를 구사할 수 있습니다.
 
-  ---
-
-  _품질_ 이란, 비단 QA engineer만이 보증하는 것이 아닌, 프로젝트 구성원 전부가 품질에 대한 의식을 가지고 있을때야 말로 보증된다고 생각합니다. 구성원들이 품질에 대해 인식하고, 품질을 끌어올릴 수 있도록 조정하고 조율하는 역할을 하고 싶습니다.
-  비효율적인 프로세스가 있다면, 구성원과 다 같이 협의하고, 개선하고 싶습니다. 프로덕트에 대한 끊임없는 호기심을 통해 우수한 완성도를 추구하고, 최고의 사용자 경험을 제공하고 싶습니다.
-
-
+  
   - _velog_ : [www.velog.io/@dahunyoo](www.velog.io/@dahunyoo)
   - _Linkedin_ : [https://www.linkedin.com/in/dahun-yoo](https://www.linkedin.com/in/dahun-yoo)
   - _Gmail_ : dahun4032@gmail.com
 
 
-  <div style="text-align: right;"> _last update: 2023. 08_ </div>
+  <div style="text-align: right;"> _last update: 2024. 07_ </div>
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+      - layout: left
+        title: HYPERCONNECT
+        sub_title: Software Development in Test
+        caption: 2023. 12 - Present, Seoul, Korea
+        quote: >
+          세상을 연결하는 다양한 비디오 및 인공지능 기술 기반의 서비스를 제공
+        description: | # this will include new lines to allow paragraphs
+          현재는 Azar 제품의 기존 매뉴얼 회귀테스트케이스를 자동화하는 업무를 수행하고 있습니다.
+          - Automate Manual UI Test using Appium
+          - Design Test automation test system structure
+          
+          팀의 초기 Building 작업을 진행하였으며 아래의 내용들을 수행하였습니다.
+          - PageObject 모델링을 이용한 자동화 코드의 구조 작성
+          - Fixture를 이용한 테스트의 Setup, Teardown 기능 구성
+          - 유지보수를 위한 코드 컨벤션 수립 및 관련 문서 작성
+          - Selenium grid를 이용한 병렬 실행 구성
+          - 실행결과를 allure report 호스팅 주소와 함께 Slack 채널로 리포트를 하는 스크립트 작성
+        
+          현재 기존 매뉴얼 회귀 테스트케이스 대비 약 10% 초반의 커버리지를 구현하고 있으며, QA팀의 리소스 절감을 위한 활동들을 수행하고 있습니다.
+          
+          ---
+
       - layout: left
         title: MyRealTrip
         sub_title: Technical QA Engineer
-        caption: 2022. 01 - Present, Seoul, Korea
+        caption: 2022. 01 - 2023. 12, Seoul, Korea
         quote: >
           항공권 예매부터 숙박, 렌터카, 식사 및 투어까지 여행에서의 Super APP으로 성장하고 있는 서비스
         description: | # this will include new lines to allow paragraphs
@@ -110,7 +128,7 @@ content:
           ## **Automate Manual UI / API Test**
           현재 팀 내 Tech파트에서 자동 UI테스트에 대한 시스템 구성을 제안하고, 안드로이드 테스트 자동화를 수행하였으며 API 자동 테스트에 대한 유지보수를 담당하고 있습니다.
 
-          #### _2023. 05 ~ Present_
+          #### _2023. 05 ~ 2023. 12_
           - <mark>자동 UI테스트 시스템 구성 제안</mark>
           - Convention guide 작성
           - Selenium gird를 이용한 팀장비 Hub/Node 관리 구축 (실기기 연결)
