@@ -52,13 +52,11 @@ additional_links:
 #about_title: About Me
 about_profile_image: images/IMG_9608.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요! QA/Test 직군에서 6년째 근무하고 있는 **유다훈** 이라고 합니다.
+  안녕하세요! QA/Test 직군에서 7년째 근무하고 있는 **유다훈** 이라고 합니다.
 
   현재 하이퍼커넥트에서 Software Development Engineer in Test (SDET) 로 근무중입니다.
 
   테스트 대상과 테스트 환경 등에 맞추어 적절한 테스트 플랜과 테스트케이스를 설계 / 수립할 수 있으며 테스트상황에 따라 기획, 개발을 포함한 이해관계자들과의 커뮤니케이션을 통해 효율적인 품질개선 및 달성활동을 진행할 수 있습니다.
-
-  컴퓨터공학 지식과 코딩경험도 가지고 있으며 테스트 자동화 프레임워크에 대한 지식과, 일부 프레임워크를 사용하여 현업에서의 테스트 자동화 경험을 가지고 있습니다. 이로 인하여 테스트 대상에 대한 효율적인 테스트 방법을 제안할 수 있으며 필요 시 테스트 자동화를 구축할 수 있습니다.
 
   주식, 펀드 및 암호자산 서비스에서의 재직경험을 바탕으로한, 금융계열과 블록체인에 대한 도메인 지식과, 여행 커머스업에서의 재직경험을 바탕으로한 커머스 도메인 지식을 가지고 있습니다. 또한 Business Level의 일본어를 구사할 수 있습니다.
 
@@ -66,9 +64,11 @@ about_content: | # this will include new lines to allow paragraphs
   - _velog_ : [www.velog.io/@dahunyoo](www.velog.io/@dahunyoo)
   - _Linkedin_ : [https://www.linkedin.com/in/dahun-yoo](https://www.linkedin.com/in/dahun-yoo)
   - _Gmail_ : dahun4032@gmail.com
+  - _Download resume PDF_ : [https://yoodahun.github.io/resume/yoodahun_resume.pdf](https://yoodahun.github.io/resume/yoodahun_resume.pdf)
+  - _Download project detail pdf_ : [https://yoodahun.github.io/resume/yoodahun_project_history.pdf](https://yoodahun.github.io/resume/yoodahun_project_history.pdf)
 
 
-  <div style="text-align: right;"> _last update: 2024. 07_ </div>
+  <div style="text-align: right;"> _last update: 2024. 08_ </div>
 
 content:
   - title: Experience # Title for the section
@@ -82,7 +82,7 @@ content:
         quote: >
           세상을 연결하는 다양한 비디오 및 인공지능 기술 기반의 서비스를 제공
         description: | # this will include new lines to allow paragraphs
-          현재는 Azar 제품의 기존 매뉴얼 회귀테스트케이스를 자동화하는 업무를 수행하고 있습니다.
+          현재는 Appium을 이용하여 **Azar** 제품의 기존 매뉴얼 회귀테스트케이스를 자동화하는 업무를 수행하고 있습니다.
           - Automate Manual UI Test using Appium
           - Design Test automation test system structure
           
@@ -93,7 +93,7 @@ content:
           - Selenium grid를 이용한 병렬 실행 구성
           - 실행결과를 allure report 호스팅 주소와 함께 Slack 채널로 리포트를 하는 스크립트 작성
         
-          현재 기존 매뉴얼 회귀 테스트케이스 대비 약 10% 초반의 커버리지를 구현하고 있으며, QA팀의 리소스 절감을 위한 활동들을 수행하고 있습니다.
+          현재 기존 매뉴얼 회귀 테스트케이스 대비 약 20% 후반의 커버리지를 구현하고 있으며, QA팀의 리소스 절감을 위한 활동과 업무 프로세스에 수립 활동을 하고 있습니다.
           
           ---
 
@@ -104,12 +104,7 @@ content:
         quote: >
           항공권 예매부터 숙박, 렌터카, 식사 및 투어까지 여행에서의 Super APP으로 성장하고 있는 서비스
         description: | # this will include new lines to allow paragraphs
-          현재는 매뉴얼 회귀 테스트에 대한 자동화 업무와, API테스트의 자동화를 수행하고 있습니다.
-          - Automate Manual UI Test using Selenium, Appium
-          - Design Test automation test system structure
-          - Automate API Test using Newman script
-
-          프로젝트 전반에 걸쳐 아래와 같은 활동을 진행하였습니다.
+         프로젝트 전반에 걸쳐 아래와 같은 활동을 진행하였습니다.
           - Project의 Kick-off 부터 Sign-off 후의 모니터링까지 프로젝트 모든 단계에서 전반적인 품질활동 실시
           - Design and Implement TestCase and TestScenario
           - Design Test Policy and Test Plan
@@ -125,63 +120,11 @@ content:
           - 팀 편성에 대한 의견 전개
           - 팀 내 품질활동 스터디 주도
 
-          ## **Automate Manual UI / API Test**
-          현재 팀 내 Tech파트에서 자동 UI테스트에 대한 시스템 구성을 제안하고, 안드로이드 테스트 자동화를 수행하였으며 API 자동 테스트에 대한 유지보수를 담당하고 있습니다.
-
-          #### _2023. 05 ~ 2023. 12_
-          - <mark>자동 UI테스트 시스템 구성 제안</mark>
-          - Convention guide 작성
-          - Selenium gird를 이용한 팀장비 Hub/Node 관리 구축 (실기기 연결)
-          - Python을 이용한 Android 테스트 자동화 코드 작성
-          - 작성된 자동 테스트 코드에 대해 Jenkins를 이용한 주기적인 테스트 수행 및 Slack report
-          - Allure report를 이용한 간단한 리포트 제공
-          - Github Pull request를 통한 코드리뷰 진행 > 적절한 명시적 대기(wait) 사용 방법 전파를 통해 테스트 수행시간을 <mark>약 20분 단축</mark>
-          - [테스트 자동화 후기](https://velog.io/@dahunyoo/서비스-UI-테스트-자동화-시작-후기)
-
-
-          ## **Search and Recommendation, Buy Conversion**
-          MyRealTrip에서는 전반적으로 검색추천 기능에 대한 품질활동을 수행하고 있으며, 그 외 구매전환을 위한 관련 프로덕트에 대해 품질활동을 수행하였습니다.
-
-          #### _2023. 03 ~ 2023.04_ Themelist
-          - 특정 테마로 묶여진 상품에 대한 리스트를 보여주는 기능
-          - <mark>API 테스트</mark>를 통한 백엔드 서버 품질활동 수행
-          - Response 구조에 따라 UI 형태가 바뀌는, Server-driven UI 검증
-          - 매뉴얼 UI 테스트 수행
-          - API 테스트를 하며 작성한 스크립트에 대해 <mark>Jenkins를 이용한 테스트 자동화 구축</mark>
-
-          #### _2022. 12 ~ 2023. 01_, Wishlist
-          - 위시리스트 기능에 대해, 모놀리틱 아키텍처에서 마이크로 서비스 아키텍처로 전환하는 안건
-          - <mark>API 테스트</mark>를 통해 위시리스트 API에 대해 구버전 API과 신규 API간의 상호 호환확인
-          - <mark>API 테스트</mark>를 통해 웹 API와 앱API간의 상호 교차확인
-          - Response 구조에 따라 UI 형태가 바뀌는, Server-driven UI 검증
-          - 신규 개발되는 위시리스트 화면에 대한 매뉴얼 UI 테스트 수행
-          - API Test 프로세스 수립을 위해, API Test 수행 후 통계정보 수집 및 이해관계자들 인터뷰 진행
-
-          #### _2022. 11 ~ 2022. 12_, Improvement search feature
-          - 제품 내 숙소기능 개편에 따른, 숙소 상품 노출개선을 위한 검색 기능 수정 작업
-          - 검색어 패턴에 따른 상품 노출조건 확인
-          - 검색어 및 카테고리, 필터, 정렬 파라미터를 이용한 <mark>API Test</mark> 실시
-          - Response 구조에 따라 UI 형태가 바뀌는, Server-driven UI 검증
-          - API Test 프로세스 수립을 위해, API Test 수행 후의 통계정보 수집 및 이해관계자들 인터뷰 진행
-
-          #### _2022. 10 ~ 2022. 11_, In-App Message bottom sheet
-          - 상품 구매 후 추가 상품 구매 유도를 위해, 상품 구매완료 후에 다른 상품을 추천해주는 내용을 바텀시트를 통해 제안하는 기능
-          - 바텀 시트 노출 타이밍 및 동작 검증
-          - Response 구조에 따라 UI에 노출되는 형태가 바뀌는, Server-driven UI 검증
-
-          #### _2022. 05 ~ 2022. 06_, ADD public & recommendation data on Cityhome
-          - 사내 데이터 분석 결과, 여행자들이 많이 찾는 화면인 _도시홈_ 에 대해 좀 더 많은 추천 섹션을 보여주기 위한 개편 안건
-          - 실시간 예약, 후기가 발생한 상품 섹션 및 해당 도시의 추천 상품 섹션 검증
-          - 테스트환경에서는 테스트 데이터 이슈로 인하여 추천 및 실시간 데이터가 제대로 노출이 안되는 문제를 확인하여 테스트 환경에서의 확인은 최소화로 하고 스테이지환경에서의 검증을 하자고 테스트 플랜 제안.
-          - 스테이지 환경에서, 실제 예약, 후기가 발생하는 데이터 등을 이용하여 불필요한 테스트 기간 최소화. 예상보다 약 <mark>2일</mark> 정도의 공수를 절약할 수 있었으며, 빠른 릴리즈 성공
-
-          #### _2022. 03 ~ 2022. 04_ , NEW Search feature release
-          - 기존의 Ruby on Rails의 Monolithic architecture로 되어있던 검색 서비스에 대해, JAVA Spring기반의 MSA로의 전환
-          - 기존 검색기능에 대해 Response 분석
-          - Pair-wise기법을 통한 검색조건, 필터, 정렬에 대한 테스트케이스 작성
-          - POSTMAN을 이용한 API Test 구현
-          - Github, Jenkins, Newman을 이용하여 검색기능에 대한 지속적인 모니터링 구현을 통하여 지속적인 검색품질 확인
-
+          매뉴얼 회귀 테스트에 대한 자동화 업무와, API테스트의 자동화를 수행하였습니다.
+          - Automate Manual UI Test using Selenium, Appium
+          - Design Test automation test system structure
+          - Automate API Test using Newman script
+ 
           ---
 
       - layout: left
@@ -195,39 +138,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           ## **CryptoCurrency brokerage service back-office feature**
           ## **CryptoCurrency NFT Market and Biz serivce back-office feature**
-
-          프로젝트 전반에 걸쳐 아래와 같은 업무를 진행하였습니다.
-          - Project의 Kick-off 부터 Sign-off까지 프로젝트 모든 단계에 전반적인 QA활동 실시
-          - QA Process 및 Testcase에 대한 Review Process 정립
-          - Design Test Policy and Test Plan
-          - Managing E2E Test Schedule
-          - Writing some other Test documents using Confluence on Korean, Japanese Business level.
-          - Design and Implement Manual TestCase and TestScenario using Testrail
-          - Design and Implement Automating E2E Test using Cucumber, Selenium, TestNG
-          - E2E UI Test Design and Implement, maintenance.
-
-          #### _2021. 07 ~ 2021. 08_, 한국 내 코인거래소에서의 LINK 상장 관련 작업 진행
-          - 국내 코인거래서 빗썸에서의 LINK 상장에 따라 시세 반영 및 코인 유동성 관리기능 검증
-
-          #### _2021. 05 ~ 2021. 05_, NFT Market and Biz Service Launch
-          - B2C NFT Market 및 Market에 등록하는 법인용(Biz) Service OPEN
-          - 정산기능 및 법인용 법적장부 기능 검증.
-
-          #### _2020. 11_, 2021. 03_, LINE 자체 Wallet Platform으로의 자산이관
-          - Product뿐만 아니라 Project 단위의 결과물인 자산이관 계획 Review
-          - 테스트환경에서 개발팀과의 리허설 진행 후 자산이관 계획 Feedback
-          - Real환경에서 무사고 <mark>자산이관</mark> 실현
-
-          #### _2020. 08 ~ 2021. 12_ [E2E Regression Test 자동화](https://velog.io/@dahunyoo/Manual-QA-Engineer가-UI기반-E2E-회귀-테스트를-자동화-한-후기)
-          - Cucumber, Selenium을 이용한 회귀 테스트 자동화 구현
-          - 기존 Regression test 공수 대비 <mark>4~50%</mark> 단축
-
-          #### _2020. 07_, LINE 발행 암호자산 (LINK) 상장
-          - 신규 암호자산 상장에 따른 Wallet Structure, 정산기능 Review 및 Feedback
-
-          #### _2020. 05_, 법령개정 대응으로 인한 Wallet Structure 변경
-          - 일본 가상화폐 법령 개정으로 인한 시스템 구성 변경
-          - Wallet Structure 변경으로 인한 유동성 관리 계획 Review 및 Feedback 진행
 
           ---
 
@@ -243,12 +153,6 @@ content:
           - Design and Implement Integration Test
           - Build Test env on Linux server
 
-          #### _2019. 07 ~ 2019. 09_, A사 펀드 구매 시스템 프로젝트
-          - 기존 엑셀과 SVN으로 관리되던 Bug Tracking Process를 RubyMine으로 <mark>이전 제안 및 실행</mark>
-
-          #### _2019. 02 ~ 2019. 06_, O지방은행 주식, 펀드, 채권거래 프로젝트
-          #### _2018. 07 ~ 2019. 01_, D사 적립식 주식 구매 시스템 프로젝트
-
 
   - title: Personal Project and Portfolio, Activity # Title for the section
     layout: list # Type of content section (list/text)
@@ -261,7 +165,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           2023 2nd QA Korea Conference에 _API 테스트의 시작_ 이라는 주제로 참여하였습니다.
           
-          API테스트를 수행할 떄에는 어떤 점들을 챙겨야하는지에 관한 기초적인 부분부터, MyRealTrip에서 수행한 경험을 바탕으로한 구체적인 테스트 후기를 공유하였습니다.
+          API테스트를 수행할 떄에는 어떤 점들을 챙겨야하는지에 관한 기초적인 부분부터, MyRealTrip에서 수행한 경험을 바탕으로, Postman을 이용한 구체적인 테스트 후기를 공유하였습니다.
 
           [https://festa.io/events/3572](https://festa.io/events/3572)
 
@@ -352,7 +256,7 @@ content:
       - layout: left
         title: Test Policy, Test Plan and Testcase
         quote: >
-          현재 업무에서 사용하고 있는 포맷으로 작성된, 테스트 정책, 테스트 계획 및 테스트 케이스
+          업무에서 사용했던 포맷으로 작성된, 테스트 정책, 테스트 계획 및 테스트 케이스
         description: | # this will include new lines to allow paragraphs
           현업에서 사용하고 있는 포맷으로 작성된 테스트 정책, 테스트 계획 및 테스트 케이스입니다. 포맷을 가장 비슷하게 구성할 수 있는 Notion으로 작성하였습니다.
 
@@ -397,7 +301,7 @@ content:
             - Selenium, Appium
             - Cucumber, behave (BDD Framework)
             - REST Assured, requests, POSTMAN, Newman
-            - Maven, TestNG, JUnit, Pytest
+            - Maven, TestNG, Pytest
             - Testrail, Redmine
             - Web Debugging Proxy Tool (Charles)
 
@@ -410,8 +314,7 @@ content:
           title: Others
           description: |
             - SQL
-            - Git, SVN, Bash(Linux command)
-            - Flask
+            - Git, Bash(Linux command)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
